@@ -1,4 +1,4 @@
-ID: ad_xsa_1
+ID: ad_xsa
 _schema-version: '2.1'
 version: 0.0.1
 
@@ -11,9 +11,6 @@ modules:
 
 resources:
  - name: hdi_db
-   parameters:
-      service-name: hanatrialaj
    properties:
       hdi-container-name: ${service-name}
-      type: org.cloudfoundry.existing-service
    type: com.sap.xs.hdi-container
