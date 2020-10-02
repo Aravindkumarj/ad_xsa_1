@@ -1,0 +1,38 @@
+  {
+  	"EXTERNAL_SCHEMA_SERVICE": {
+  		"object_owner": {
+  			"roles": [
+  				"Readonly_external_access_g", "FIN_MAT_CREATE_ANY_ROLE_G"
+  			]
+  		},
+  		"application_user": {
+  			"roles": [
+  				"Readonly_external_access", "FIN_MAT_CREATE_ANY_ROLE"
+  			]
+  		}
+  	},
+  	"hdi_FINMART_HDB": {
+  		"object_owner": {
+  			"container_roles": [
+  				"FINMART_READONLY_ROLE#"
+  			]
+  		},
+  		"application_user": {
+  			"container_roles": [
+  				"FINMART_READONLY_ROLE"
+  			]
+  		}
+  	},
+  	"hdi_SHARED_HDB": {
+  		"object_owner": {
+  			"container_roles": [
+  				"SHARED_READONLY_ROLE#"
+  			]
+  		},
+  		"application_user": {
+  			"container_roles": [
+  				"SHARED_READONLY_ROLE"
+  			]
+  		}
+  	}
+  }

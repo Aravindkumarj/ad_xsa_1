@@ -1,0 +1,14 @@
+{
+  "SYN_T001W": {
+    "target": {
+      "object": "T001W",
+      "schema": "ECC"
+    }
+  },
+  "SYN_CVD_TIME": {
+    "target": {
+      "object": "CVD_TIME",
+      "schema": "FDP_SHARED"
+    }
+  }
+}

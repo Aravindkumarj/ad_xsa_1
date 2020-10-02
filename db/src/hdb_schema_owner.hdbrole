@@ -1,0 +1,10 @@
+{
+  "role": {
+    "name": "FINMART_FINBI_READONLY_ROLE#",
+    "schema_privileges": [
+      {
+		"privileges_with_grant_option":[ "SELECT","EXECUTE","UPDATE","INSERT","DELETE" ]
+      }
+    ]
+}   
+}
