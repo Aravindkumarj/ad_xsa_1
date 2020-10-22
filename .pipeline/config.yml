@@ -3,11 +3,8 @@ steps:
     buildTarget: 'CF'
     platform: 'CF'
   cloudFoundryDeploy:
-    credentialsId: 'CF_CREDENTIALSID'  # omitted, 'XS' is the default
-    apiUrl: 'https://api.cf.us10.hana.ondemand.com' # e.g. 'https://example.org:30030'
-    space: 'dev'
-    org: '1daaf481trial'
-    loginOpts: --skip-ssl-validation
-    deployOpts: --version-rule ALL
-    docker:
-    dockerImage: 'ppiper/cf-cli'
+	cloudFoundry:
+    	credentialsId: 'CF_CREDENTIALSID'  # omitted, 'XS' is the default
+		apiEndpoint: 'https://api.cf.us10.hana.ondemand.com' # e.g. 'https://example.org:30030'
+    	space: 'dev'
+    	org: '1daaf481trial'
