@@ -3,7 +3,8 @@ steps:
     buildTarget: 'CF'
     platform: 'CF'
   cloudFoundryDeploy:
-    cloudFoundry/org:'1daaf481trial'
-    cloudFoundry/credentialsId: 'CF_CREDENTIALSID'  # omitted, 'XS' is the default
-    cloudFoundry/apiEndpoint: 'https://api.cf.us10.hana.ondemand.com' # e.g. 'https://example.org:30030'
-    cloudFoundry/space: 'dev'
+    cloudFoundry:
+      apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+      org: '1daaf481trial'
+      space: 'dev'
+      credentialsId: 'CF_CREDENTIALSID'
