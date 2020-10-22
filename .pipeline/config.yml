@@ -4,7 +4,7 @@ steps:
     platform: 'CF'
   cloudFoundryDeploy:
     cloudFoundry:
-    	credentialsId: 'CF_CREDENTIALSID'  # omitted, 'XS' is the default
-    	apiEndpoint: 'https://api.cf.us10.hana.ondemand.com' # e.g. 'https://example.org:30030'
-    	space: 'dev'
-    	org: '1daaf481trial'
+    credentialsId: 'CF_CREDENTIALSID'  # omitted, 'XS' is the default
+    apiEndpoint: 'https://api.cf.us10.hana.ondemand.com' # e.g. 'https://example.org:30030'
+    space: 'dev'
+    org: '1daaf481trial'
