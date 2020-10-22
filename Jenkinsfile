@@ -19,7 +19,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                xsDeploy script: this
+                cloudFoundryDeploy script: this
             }
         }
     }

@@ -1,8 +1,8 @@
 steps:
   mtaBuild:
-    buildTarget: 'XSA'
-    platform: 'XSA'
-  xsDeploy:
+    buildTarget: 'CF'
+    platform: 'CF'
+  cloudFoundryDeploy:
     credentialsId: 'CF_CREDENTIALSID'  # omitted, 'XS' is the default
     apiUrl: 'https://api.cf.us10.hana.ondemand.com' # e.g. 'https://example.org:30030'
     space: 'dev'
