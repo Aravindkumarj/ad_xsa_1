@@ -8,3 +8,4 @@ steps:
       org: '1daaf481trial'
       space: 'dev'
       credentialsId: 'CF_CREDENTIALSID'
+    deployTool: 'cf_native'
